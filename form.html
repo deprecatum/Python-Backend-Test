@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Form_empresa</title>
+
+</head>
+<body>
+
+<div id="content">
+	<div id="some_form">
+		<form id="a_form" action="/cgi-bin/k.py" method="get">
+			<table>
+				<tbody>
+				<tr>
+					<td colspan="10"><br><hr><br></td>
+				</tr>
+				<tr>
+					<br>
+					<ol type ="a">
+					<li><input type="text" placeholder="Nome" id="username" name="name" required></li>
+					<li><input type="text" placeholder="Empresa" id="company" required></li>
+					<li><input type="text" placeholder="Email" id="email" required>	</li>
+					<li><input type="text" placeholder="Telefone/fax" id="contact" required></li>
+					<li><input type="text" placeholder="Ramo da empresa" id="comp_type"></li>
+					<li><input type="text" placeholder="Site Empresa" id="site"></li>
+					<li> Motivo: <select>
+							<option value="vendas">Vendas</option>
+							<option value="marketing">Marketing</option>
+							<option value="hr">Recursos Humanos</option>
+					</select></li>
+					<li><input type="text" placeholder="Mensagem(150)" id="mensagem" minlength="150" required></li>
+
+				</tr>
+				<tr>
+					<td><br><button form="a_form" type="submit" type="button">Send</button></td>
+				</tr>
+			</tbody>
+			</table>
+			
+		
+	
+	
+		</form>	
+	</div>
+
+</div>
+
+
+</body>
+</html>
